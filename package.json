@@ -1,0 +1,24 @@
+{
+  "name": "component-npm",
+  "version": "1.0.0",
+  "description": "npm包发布的一个预设仓库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunbridger/component-npm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunbridger/component-npm/issues"
+  },
+  "homepage": "https://github.com/Sunbridger/component-npm#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  }
+}
