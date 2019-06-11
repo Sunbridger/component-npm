@@ -2,7 +2,7 @@
   "name": "sunbridger-api-mv",
   "version": "1.0.0",
   "description": "合法合理爬取热点梨视频，若有冒犯，请email告知，谢谢",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,7 @@
     "url": "https://github.com/Sunbridger/component-npm/issues"
   },
   "homepage": "https://github.com/Sunbridger/component-npm#readme",
-  "devDependencies": {
+  "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "request": "^2.88.0"
   }
