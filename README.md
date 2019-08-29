@@ -13,7 +13,7 @@ npm包发布的一个预设仓库
 
 #### 形如下面方式编写即可
 ```
-let pro = require('xxx');
+let pro = require('sunbridger-api-mv');
 pro.then(data=>{
     console.log(data);
 }).catch(e=>{
