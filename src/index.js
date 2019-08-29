@@ -2,11 +2,11 @@ var request = require('request');
 const cheerio = require('cheerio')
 const baseUrl = "https://www.pearvideo.com/popular";
 const url_to = "https://www.pearvideo.com/";
-let arr=[] ; //暂时用全局的变量承接；
-function startReq(url=baseUrl) {
-  let newUrlArr=[];
+let arr = [] ; //暂时用全局的变量承接；
+function startReq(url = baseUrl) {
+  let newUrlArr = [];
 //   let arr=[];
-  let type=[10,1,2,9,5,8,4,3,31,6,59];
+  let type = [10,1,2,9,5,8,4,3,31,6,59];
   let ranIndex=Math.random()*10|0;
   url = baseUrl+'_'+type[ranIndex];
   request(url,  function (error, response, body) {
@@ -25,13 +25,14 @@ function startReq(url=baseUrl) {
       })
   });
 }
-startReq(arr);
+startReq();
 module.exports=new Promise(function(resolve,reject){
     setTimeout(()=>{
         if(arr.length==0){
             reject({
                 msg:'网络缓慢，请重试',
-                status:-1
+                status:-1,
+                data: []
             })
         }else{
             resolve({
