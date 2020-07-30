@@ -1,6 +1,6 @@
 {
   "name": "sunbridger-api-mv",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "合法合理爬取热点梨视频，若有冒犯，请email告知，谢谢",
   "main": "./src/index.js",
   "scripts": {
