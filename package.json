@@ -1,8 +1,9 @@
 {
   "name": "sunbridger-api-mv",
-  "version": "1.1.0",
-  "description": "合法合理爬取热点梨视频，若有冒犯，请email告知，谢谢",
+  "version": "1.1.1",
+  "description": "爬取热点梨视频，若有冒犯，请email告知，谢谢",
   "main": "./src/index.js",
+  "keywords": ["node", "cheerio", "爬虫", "video", "梨视频"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Sunbridger/component-npm.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Sunbridger",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sunbridger/component-npm/issues"
