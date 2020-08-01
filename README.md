@@ -1,22 +1,20 @@
-# sunbridger-api-mv 
-npm包发布的一个预设仓库
+# 基于node模块 爬取梨视频的包
 
-## NPM地址 ： https://www.npmjs.com/package/sunbridger-api-mv
+## install
 
-### npm install sunbridger-api-mv  --save-dev
+```npm install sunbridger-api-mv  -D```
 
-```
-"devDependencies": {
-    "sunbridger-api-mv": "1.0.0"
-}
-```
+or
+
+```yarn add sunbridger-api-mv```
 
 #### 形如下面方式编写即可
 ```
 let pro = require('sunbridger-api-mv');
 pro.then(data=>{
     console.log(data);
-}).catch(e=>{
-    console.log(e)
-})
+});
 ```
+
+## GitHub
+https://www.npmjs.com/package/sunbridger-api-mv
